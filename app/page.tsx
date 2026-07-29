@@ -394,14 +394,8 @@ export default function Home() {
               برای {selectedFood || "غذای انتخاب‌شده"} 🥂
               <br />
             </p>
-
             <div className="final-divider" />
-
             <p className="final-pickup">پس آماده باش، خودم میام دنبالت 🚗💨</p>
-
-            <p className="final-note">
-              برای اینکه ازت درخواست کنم یه وب‌سایت طراحی کردم، چیز مهمی نبود 🙈
-            </p>
           </>
         )}
       </div>
