@@ -268,14 +268,17 @@ export default function Home() {
               {dateIsComplete ? `تاریخ انتخاب‌شده: ${persianDate}` : " "}
             </p>
 
-            <input
-              type="time"
-              value={time}
-              onChange={(event) => {
-                setTime(event.target.value);
-                setDateTimeError("");
-              }}
-            />
+            <label className="time-label">
+              <span>ساعت</span>
+              <input
+                type="time"
+                value={time}
+                onChange={(event) => {
+                  setTime(event.target.value);
+                  setDateTimeError("");
+                }}
+              />
+            </label>
 
             {dateTimeError && (
               <p className="validation-error" role="alert">

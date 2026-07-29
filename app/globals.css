@@ -799,6 +799,18 @@ input[type="time"] {
   min-width: 0;
   box-sizing: border-box;
 }
+.time-label {
+  display: grid;
+  gap: 6px;
+  margin-top: 18px;
+  color: #8c667c;
+  font-size: 0.78rem;
+  font-weight: 600;
+}
+
+.time-label input {
+  margin-top: 0;
+}
 
 @media (max-width: 600px) {
   .container {
