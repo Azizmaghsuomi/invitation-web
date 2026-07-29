@@ -868,14 +868,24 @@ input:focus {
     font-size: 29px;
   }
   .step-1 .btns {
-    margin-top: 55px;
-    gap: 16px;
+    width: 100%;
+    gap: 12px;
   }
-  .step-1 .yes {
+  /* .step-1 .yes {
     min-width: 150px;
     min-height: 86px;
     font-size: 28px;
+  } */
+     .step-1 .yes,
+  .step-1 .no {
+    flex: 1 1 0;
+    min-width: 0;
+    max-width: 160px;
+    min-height: 78px;
+    padding: 14px 16px;
+    font-size: 20px;
   }
+
   .no-message {
     margin-top: 31px;
   }
