@@ -791,6 +791,14 @@ input:focus {
     transform: translateY(0) scale(1);
   }
 }
+input[type="time"] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  box-sizing: border-box;
+}
 
 @media (max-width: 600px) {
   .container {
